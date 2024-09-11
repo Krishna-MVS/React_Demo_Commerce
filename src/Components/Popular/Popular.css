@@ -1,0 +1,22 @@
+.popular{
+    margin-top: 15px;
+}
+.popular h1{
+    color: brown;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: aqua;
+    text-align: center;
+}
+.popular-item{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    height: 470px;
+}

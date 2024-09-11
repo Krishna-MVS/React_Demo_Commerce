@@ -1,0 +1,35 @@
+.item{
+    width: 250px;
+    height: 400px;
+    margin: 0 25px;
+}
+.item img{
+    width: 100%;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.item p{
+    margin: 6px 0px;
+}
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+.item-price-new{
+    color: #ff4141;
+    font-size: 18px;
+    font-weight: 500;
+}
+.item-price-old{
+    color: #818181;
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: 500;
+}
+.item:hover{
+    transform: scale(1.050);
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1)
+}
